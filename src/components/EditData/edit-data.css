@@ -1,0 +1,65 @@
+.pop-up-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pop-up {
+  width: 45em;
+  border-radius: 15px;
+  padding: 3rem;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.add-user-title {
+  font-size: 1.5rem;
+  align-self: center;
+  margin-bottom: 0.5rem;
+}
+
+.ant-col.ant-form-item-label {
+  padding: 0;
+}
+
+.ant-form-item-label label {
+  font-size: 1rem;
+}
+
+.ant-form-item {
+  margin-bottom: 0.5rem;
+}
+
+.ant-select {
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+}
+
+.ant-input {
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+}
+
+.submit {
+  color: var(--base);
+  background-color: #37b5e7;
+  border-radius: 5px;
+  padding: 0 3.5rem;
+  margin-top: 1rem;
+}
