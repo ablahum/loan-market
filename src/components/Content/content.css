@@ -1,0 +1,143 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 90vh;
+}
+
+.content {
+  margin: 1.5rem;
+  padding: 1.5rem 3rem;
+  background-color: var(--base);
+  border-radius: 10px;
+}
+
+.main-content {
+  /* background-color: tomato; */
+  /* flex-grow: 3; */
+}
+
+.add-btn {
+  color: var(--base);
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 1.5rem 0 auto;
+}
+
+.add-btn:hover {
+  color: var(--primary);
+  background-color: var(--base);
+  border: none;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.plus {
+  font-size: 0.6rem;
+  margin-left: -2px;
+  margin-right: 0.2rem;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.search {
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.filter-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-left: 0.8rem;
+}
+
+.filter-btn:hover {
+  color: var(--base);
+  background-color: var(--primary);
+  border: 1px solid #000;
+}
+
+.ant-tabs-nav {
+  margin: 1.5rem 0 !important;
+}
+
+.ant-tabs-tab {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.ant-tabs-tab:hover {
+  color: var(--primary);
+}
+
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  border-bottom: 1px solid #000;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+.ant-tabs-ink-bar {
+  height: 4px !important;
+  background: var(--primary);
+  border-radius: 20px;
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-wrapper h2 {
+  font-size: 1rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+}
+
+.page-btn {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 0 1rem;
+}
+
+.page-btn:hover {
+  color: var(--base);
+  background-color: var(--primary);
+  border: 1px solid #000;
+}
+
+.nav-btn {
+  color: var(--muted);
+  border-radius: 5px;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.nav-btn:hover {
+  color: var(--base);
+  background-color: var(--primary);
+  border: 1px solid #000;
+  border-radius: 5px;
+}
