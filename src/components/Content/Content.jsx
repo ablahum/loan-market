@@ -28,7 +28,7 @@ const menu = (
   />
 )
 
-const Content = ({ addUser, setAddUser, customer, author, advisor }) => {
+const Content = ({ setAddUser, customer, author, advisor, bankOfficer }) => {
   return (
     <div className='content-wrapper'>
       <div className='main-content'>
@@ -43,6 +43,7 @@ const Content = ({ addUser, setAddUser, customer, author, advisor }) => {
         <div className='content'>
           <div className='search-wrapper'>
             <Input size='large' placeholder='Enter Keyword' prefix={<BsSearch style={{ margin: '0 0.7rem' }} />} className='search' />
+
             <Button size='large' className='filter-btn'>
               <FiFilter style={{ marginRight: '.5rem' }} />
               <span style={{ fontWeight: '600' }}>Filters</span>
@@ -64,7 +65,9 @@ const Content = ({ addUser, setAddUser, customer, author, advisor }) => {
             <TabPane tab='Admin Office' key='6' />
             <TabPane tab='Principal' key='7' />
             <TabPane tab='Principal LMI' key='8' />
-            <TabPane tab='Bank Officer' key='9' />
+            <TabPane tab='Bank Officer' key='9'>
+              {bankOfficer}
+            </TabPane>
             <TabPane tab='Bank Admin' key='10' />
             <TabPane tab='Bank Principal' key='11' />
           </Tabs>

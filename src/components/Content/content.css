@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 90vh;
+  min-height: 85vh;
 }
 
 .content {
@@ -10,11 +10,6 @@
   padding: 1.5rem 3rem;
   background-color: var(--base);
   border-radius: 10px;
-}
-
-.main-content {
-  /* background-color: tomato; */
-  /* flex-grow: 3; */
 }
 
 .add-btn {
