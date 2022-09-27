@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Layout, Content, AddUser, EditData } from './components'
-import { Author, Advisor, Customer } from './data'
+import { Author, Advisor, Customer, BankOfficer } from './data'
 
 function App() {
   const [addUser, setAddUser] = useState(false)
@@ -9,7 +9,13 @@ function App() {
   return (
     <>
       <Layout>
-        <Content author={<Author setEditData={setEditData} />} advisor={<Advisor setEditData={setEditData} />} customer={<Customer setEditData={setEditData} />} addUser={addUser} setAddUser={setAddUser} />
+        <Content
+          customer={<Customer setEditData={setEditData} />}
+          author={<Author setEditData={setEditData} />}
+          advisor={<Advisor setEditData={setEditData} />}
+          bankOfficer={<BankOfficer setEditData={setEditData} />}
+          setAddUser={setAddUser}
+        />
 
         {addUser && <AddUser trigger={addUser} setTrigger={setAddUser} />}
         {editData && <EditData trigger={editData} setTrigger={setEditData} />}
