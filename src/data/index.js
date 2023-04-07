@@ -1,6 +1,4 @@
-import Author from './Author'
-import Advisor from './Advisor'
-import Customer from './Customer'
-import BankOfficer from './BankOfficer'
-
-export { Author, Advisor, Customer, BankOfficer }
+export { default as Author } from './Author'
+export { default as Advisor } from './Advisor'
+export { default as Customer } from './Customer'
+export { default as BankOfficer } from './BankOfficer'

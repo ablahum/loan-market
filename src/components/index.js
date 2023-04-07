@@ -1,7 +1,5 @@
-import Layout from './Layout'
-import Content from './Content'
-import Table from './Table'
-import AddUser from './AddUser'
-import EditData from './EditData'
-
-export { Layout, Content, Table, AddUser, EditData }
+export { default as Layout } from './Layout'
+export { default as Content } from './Content'
+export { default as Table } from './Table'
+export { default as AddUser } from './AddUser'
+export { default as EditData } from './EditData'
