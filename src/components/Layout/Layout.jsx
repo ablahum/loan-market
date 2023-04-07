@@ -74,7 +74,9 @@ const Layout = ({ children }) => {
             </div>
 
             <div className='title'>
-              <h1 style={{ fontWeight: '700' }}>Loan Market /</h1>
+              <h1 style={{ fontWeight: '700' }}>Loan Market</h1>
+
+              <span className='slash'>/</span>
 
               <h1>User Management</h1>
             </div>

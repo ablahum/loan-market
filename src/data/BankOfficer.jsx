@@ -74,6 +74,11 @@ const data = [
   },
 ]
 
-const bankOfficer = ({ setEditData }) => <Table data={data} setEditData={setEditData} />
+const bankOfficer = ({ setEditData }) => (
+  <Table
+    data={data}
+    setEditData={setEditData}
+  />
+)
 
 export default bankOfficer
