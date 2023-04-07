@@ -34,6 +34,11 @@ const data = [
   },
 ]
 
-const Author = ({ setEditData }) => <Table data={data} setEditData={setEditData} />
+const Author = ({ setEditData }) => (
+  <Table
+    data={data}
+    setEditData={setEditData}
+  />
+)
 
 export default Author

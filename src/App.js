@@ -17,8 +17,19 @@ function App() {
           setAddUser={setAddUser}
         />
 
-        {addUser && <AddUser trigger={addUser} setTrigger={setAddUser} />}
-        {editData && <EditData trigger={editData} setTrigger={setEditData} />}
+        {addUser && (
+          <AddUser
+            trigger={addUser}
+            setTrigger={setAddUser}
+          />
+        )}
+
+        {editData && (
+          <EditData
+            trigger={editData}
+            setTrigger={setEditData}
+          />
+        )}
       </Layout>
     </>
   )

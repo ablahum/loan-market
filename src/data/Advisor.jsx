@@ -74,6 +74,11 @@ const data = [
   },
 ]
 
-const Advisor = ({ setEditData }) => <Table data={data} setEditData={setEditData} />
+const Advisor = ({ setEditData }) => (
+  <Table
+    data={data}
+    setEditData={setEditData}
+  />
+)
 
 export default Advisor
