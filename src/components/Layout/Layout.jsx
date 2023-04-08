@@ -14,17 +14,17 @@ const menuItems = [
   {
     id: 1,
     title: 'Dashboard',
-    icon: <AiOutlineHome style={{ fontSize: '1rem', padding: 'auto' }} />,
+    icon: <AiOutlineHome style={{ fontSize: '1rem' }} />,
   },
   {
     id: 2,
     title: 'User Management',
-    icon: <BiUser style={{ fontSize: '1rem', padding: 'auto' }} />,
+    icon: <BiUser style={{ fontSize: '1rem' }} />,
   },
   {
     id: 3,
     title: 'News',
-    icon: <BiPencil style={{ fontSize: '1rem', padding: 'auto' }} />,
+    icon: <BiPencil style={{ fontSize: '1rem' }} />,
   },
 ]
 
