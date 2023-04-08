@@ -150,7 +150,13 @@
   border-radius: 5px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
+  /* .pagination h2 {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 660px) {
   .content {
     padding: 1.5rem;
   }
@@ -163,12 +169,12 @@
     flex-direction: column;
   }
 
-  .pagination-wrapper h2 {
+  .pagination-wrapper > h2 {
     margin-bottom: 1rem;
   }
 
   .page-btn {
-    margin: 0;
+    margin: 0 0 0 1rem;
   }
 
   .divider {
@@ -176,7 +182,11 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 375px) {
+  .filter-btn {
+    display: none;
+  }
+
   .pagination h2 {
     display: none;
   }
