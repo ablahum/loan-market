@@ -37,6 +37,10 @@ const Layout = ({ children }) => {
         trigger={null}
         collapsible
         collapsed={collapsed}
+        breakpoint='md'
+        onCollapse={() => {
+          setCollapsed(true)
+        }}
       >
         <div className={collapsed ? 'logo-wrapper' : 'logo-wrapper-collapsed'}>
           <img
