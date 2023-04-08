@@ -5,6 +5,7 @@
 /* sider */
 .logo-wrapper {
   transition: 0.2s;
+  width: 100px;
 }
 
 .logo-wrapper-collapsed {
@@ -46,19 +47,6 @@
 .ant-menu-item.ant-menu-item-selected {
   color: var(--base) !important;
   background-color: var(--secondary) !important;
-}
-
-.menu-item-dropdown {
-  padding: 0 2rem;
-  color: var(--base);
-  background-color: var(--primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ant-collapse-item {
-  background-color: var(--primary);
 }
 
 .ant-collapse-header-text,
